@@ -45,6 +45,15 @@ a {
 }
 
 /* Header  */
+.fixed-header{
+  background-color: #e6f0ff;
+  position: sticky;
+  padding-top: 26px ;
+  top: -26px;
+  z-index: 1;
+}
+
+
 .header {
   background-color: #e6f0ff;
   height: 73.6rem;
@@ -52,14 +61,13 @@ a {
   position: relative;
 }
 
-.header .content {
-  width: 111rem;
-}
 
 .navbar {
   display: flex;
   align-items: center;
-  padding-top: 38px;
+  /* padding-top: 38px; */
+  padding: 12px 0;
+
 }
 
 .navbar ul {
@@ -94,7 +102,7 @@ a {
 }
 
 .hero {
-  margin-top: 130px;
+  padding-top: 130px;
 }
 
 .hero .info {
@@ -168,6 +176,7 @@ a {
   margin-top: 7rem;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 /*==========Guides========= */
 
